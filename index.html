@@ -1,73 +1,76 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shantanu Mukherjee | IT Architect</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Shantanu Mukherjee - CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
+    <div class="container">
+        <header>
             <h1>Shantanu Mukherjee</h1>
             <p>Senior Consultant - IT Architecture</p>
-        </div>
-    </header>
-
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>Accomplished solution architect and project manager with 17 years of experience in IT and Telecom, specializing in infrastructure services, cloud platforms, and 5G solutions.</p>
-    </section>
-
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <ul>
-            <li>Network Architecture (Private 5G, LTE, RAN)</li>
-            <li>Cloud Platforms (AWS, GCP)</li>
-            <li>Cybersecurity (ZTNA, SASE, NGFW)</li>
-            <li>Hybrid Cloud Migration & IT Infrastructure</li>
-            <li>Digital Transformation & Smart Factory</li>
-        </ul>
-    </section>
-
-    <section id="experience" class="container">
-        <h2>Work Experience</h2>
-        <div class="job">
-            <h3>Deloitte Consulting GmbH</h3>
-            <p><strong>Infrastructure Architect and Solution Specialist</strong> | 2022 - Present</p>
+            <p>Contact: +49 15112684062 | shantanumukhopadhyay@gmail.com | Berlin, Germany</p>
+        </header>
+        
+        <nav>
             <ul>
-                <li>Developed cloud migration strategies aligned with business goals.</li>
-                <li>Led high-performing infrastructure teams.</li>
-                <li>Optimized IT solutions, reducing costs by 25%.</li>
+                <li class="tab" onclick="showTab('competence')">Competence</li>
+                <li class="tab" onclick="showTab('experience')">Experience</li>
+                <li class="tab" onclick="showTab('education')">Education</li>
+                <li class="tab" onclick="showTab('achievements')">Achievements</li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="job">
-            <h3>Ericsson GmbH</h3>
-            <p><strong>Senior Test Engineer / Senior Solution Architect</strong> | 2010 - 2022</p>
+        <section id="competence" class="tab-content active">
+            <h2>Competence</h2>
             <ul>
-                <li>Managed telecom and IT transformation projects.</li>
-                <li>Led Private 5G development and hybrid cloud initiatives.</li>
+                <li>Network Architecture: Solution architecture, private 5G, LTE, RAN</li>
+                <li>Cloud-native radio access, cloud platforms (AWS, GCP)</li>
+                <li>Cybersecurity: Network security, ZTNA, SASE, NGFW</li>
+                <li>Digital transformation: Smart factory</li>
+                <li>AWS Certified: Solution Architect - Associate, Advanced Networking Specialty</li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <section id="education" class="container">
-        <h2>Education</h2>
-        <p><strong>Master of Business Management</strong> - SMU-DE, India</p>
-        <p><strong>Bachelor of Technology (Electronics & Communication)</strong> - West Bengal University of Technology</p>
-    </section>
+        <section id="experience" class="tab-content">
+            <h2>Work Experience</h2>
+            <h3>Deloitte Consulting GmbH (2022 - Present)</h3>
+            <p>Infrastructure Architect and Solution Specialist</p>
+            <ul>
+                <li>Developed and executed cloud and infrastructure migration strategies.</li>
+                <li>Managed a high-performing infrastructure team.</li>
+                <li>Delivered complex IT solutions by 30% through strategic architecture design.</li>
+                <li>Conducted 15 application assessment workshops.</li>
+            </ul>
+            
+            <h3>Ericsson GmbH (2010 - 2022)</h3>
+            <p>Senior Test Engineer / Senior Solution Architect</p>
+            <ul>
+                <li>Managed large-scale network migrations and infrastructure deployments.</li>
+                <li>Led the development of process models reducing development time by 30%.</li>
+                <li>Delivered high-impact technical projects worth up to $800K.</li>
+            </ul>
+        </section>
 
-    <section id="contact" class="container">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:shantanumukhopadhyay@gmail.com">shantanumukhopadhyay@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/shantanu-mukherjee-2431642b/" target="_blank">Shantanu Mukherjee</a></p>
-    </section>
+        <section id="education" class="tab-content">
+            <h2>Education</h2>
+            <ul>
+                <li>Master of Business Management - SMU-DE, India</li>
+                <li>Bachelor of Technology (Electronics and Communication Engineering) - West Bengal University of Technology</li>
+            </ul>
+        </section>
 
-    <footer>
-        <div class="container">
-            <p>© 2025 Shantanu Mukherjee | IT Architect</p>
-        </div>
-    </footer>
+        <section id="achievements" class="tab-content">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Awarded ‘Best Performer’ at Ericsson for network rollout projects.</li>
+                <li>Volunteered as a mentor for aspiring Telecom and IT professionals.</li>
+                <li>Led 40+ telecom projects, achieving 100% on-time delivery and 95% client satisfaction.</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
